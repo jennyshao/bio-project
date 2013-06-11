@@ -9,7 +9,7 @@ import random
 import time
 
 
-print "this is 1st version!"
+print "this is  2nd version!"
 
 Lid = []
 num =1
