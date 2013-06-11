@@ -8,6 +8,9 @@ import subprocess
 import random
 import time
 
+
+print "this is 1st version!"
+
 Lid = []
 num =1
 
