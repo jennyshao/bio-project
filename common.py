@@ -13,6 +13,46 @@ import time
 Lid=[]
 num=1
 
+purduesquid="http://squid.rcac.purdue.edu"
+purduename="purdue.edu"
+numgetretries=3
+osgsqquid=os.getenv("OSG_SQUID_LOCATION")
+print "osg squid is set to:"+str(osgsquid)
+hostname=socket.gethostname()
+print "hostname is set to:"+str(hostname)
+
+#if string.find(hostname,purduename)>=0:
+#        os.putenv("http_proxy",purduesquid)
+#elif osgsquid != None and string.find(osgsquid.upper(),"UNAVAILABLE")<0:
+#        os.putenv("http_proxy",osgsquid)
+#else:
+#       os.unsetenv("http_proxy")
+#successdownload=False
+
+if osgsquid != None:
+	das
+else:
+	b
+
+
+
+
+def download(urladdress)
+	for i in range(numgetretries):
+                print "Trial #: "+str(i)
+                child=subprocess.Popen(["wget","-q",urladdress],shell=True)
+                child.wait()
+                returncode=child.poll()
+                if returncode ==0:
+                        successdownload ==1
+                        break
+                else:
+                        #after sleepfor second, try to download again
+                        timeofsleep=(random.random())*180
+                        time.sleep(timeofsleep)
+
+
+
 @classmethod
 def downloadfile(urladdress):
 #	urladdress="wget -q"+urladdress
@@ -20,7 +60,7 @@ def downloadfile(urladdress):
 	purduename="purdue.edu"
 	numgetretries=3
 	osgsqquid=os.getenv("OSG_SQUID_LOCATION")
-	print "osg squid is set to:"+str(osgsquid
+	print "osg squid is set to:"+str(osgsquid)
 	hostname=socket.gethostname()
 	print "hostname is set to:"+str(hostname)
 	#if 
