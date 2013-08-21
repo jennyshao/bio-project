@@ -5,6 +5,9 @@ import os
 from sjcommon import *
 
 A=sjcommon()
+from common import *
+
+A=common()
 filerpst="http://hcc-server.unl.edu/BENSON/rpstblastn"
 A.download(filerpst)
 os.popen("chmod 755 rpstblastn")
