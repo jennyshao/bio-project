@@ -1,4 +1,4 @@
-executable=run.py
+executable=sjrun.py
 universe = vanilla
 # x509userproxy=/tmp/x509up_u3557
 use_x509userproxy = true
