@@ -1,6 +1,6 @@
 executable=run.py
 universe = vanilla
-# x509userproxy=/tmp/x509up_u3557
+x509userproxy=/tmp/x509up_u3557
 use_x509userproxy = true
 #transfer_input_files = sjrun.py,INPUT/INPUT$(Process).txt
 transfer_input_files = INPUT/INPUT$(Process).txt
